@@ -1,0 +1,107 @@
+Phase 1 – Git Fundamentals (Core Skills)
+  Goal: Comfortably manage your own local projects in Git.
+
+    Basics & Setup
+      Install Git & configure user info (git config --global user.name/email).
+      Understand .gitignore & .gitattributes.
+      Learn Git terminology: commit, branch, merge, remote, staging area.
+
+  Daily Commands
+    git init, git clone.
+    git status, git add, git commit.
+    git log, git show, git diff.
+
+  Branching Basics
+    git branch, git checkout, git switch.
+    Merge with git merge (fast-forward vs. no-fast-forward).
+
+  Remote Repositories
+    git remote add origin, git push, git pull, git fetch.
+    Understand origin/main/master concept.
+
+
+Phase 2 – Intermediate Git (Team Workflows)
+  Goal: Collaborate on projects without breaking things.
+
+    Pull Requests (PRs) / Merge Requests (MRs)
+      How to fork, clone, create PRs in GitHub/GitLab/Bitbucket.
+      Review and comment on PRs.
+
+    Branch Naming Conventions
+      feature/*, bugfix/*, hotfix/*.
+
+    Rebasing & History Management
+      git rebase vs. git merge.
+      Squash commits (git rebase -i).
+
+    Stashing Work
+      git stash, git stash apply, git stash pop.
+
+    Undoing Changes
+      git reset (soft, mixed, hard).
+      git revert.
+
+    Conflict Resolution
+      Simulate merge conflicts & resolve in editor.
+
+
+Phase 3 – Advanced Git (Industry Practices)
+  Goal: Handle complex workflows, production issues, and large teams.
+
+    Cherry-Picking
+      Move a specific commit to another branch (git cherry-pick).
+
+    Tags & Releases
+      Create annotated tags (git tag -a v1.0.0).
+      Understand Semantic Versioning.
+
+    Git Hooks
+      Pre-commit hooks for lint/tests.
+      Husky for managing hooks in JavaScript projects.
+
+    Bisecting
+      Find bugs with git bisect.
+
+    Submodules & Monorepos
+      Add & update submodules (git submodule).
+      Lerna/Nx basics for monorepos.
+
+
+Phase 4 – Workflow Mastery (Industry-Level Standards)
+  Goal: Work in any company’s Git process.
+
+    Branching Strategies
+      Git Flow (release cycles).
+      GitHub Flow (continuous delivery).
+      Trunk-Based Development (feature flags).
+
+    CI/CD Integration
+      GitHub Actions / GitLab CI basics.
+      How pushes trigger builds & deployments.
+
+    Code Review Best Practices
+      Writing clear commit messages (Conventional Commits).
+      Reviewing & giving feedback.
+
+    Security & Access
+      Deploy keys, SSH keys for GitHub.
+      Protect main branch with rules.
+
+
+Phase 5 – Enterprise & Special Cases
+  Goal: Handle regulated or high-scale environments.
+
+      Release Management
+        Long-term support (LTS) branches.
+        Backporting fixes.
+
+      Compliance & Audit
+        Signed commits (git commit -S).
+        Understanding audit trails.
+
+      Large Repo Optimization
+        Shallow clones (--depth).
+        Sparse checkout for big projects.
+        
+
+
